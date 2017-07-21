@@ -1,0 +1,42 @@
+{
+  "name": "vizart",
+  "version": "0.5.0",
+  "description": "Artistic Data Visualization",
+  "keywords": [
+    "vizart",
+    "Data Visualization",
+    "D3",
+    "es6"
+  ],
+  "homepage": "http://www.vizartjs.github.io",
+  "license": "MIT",
+  "author": {
+    "name": "Yun Xing",
+    "url": "https://github.com/BigFatDog"
+  },
+  "main": "dist/vizart.js",
+  "browser": "dist/vizart.js",
+  "module": "dist/vizart.mjs",
+  "jsnext:main": "dist/vizart.mjs",
+  "style": "dist/vizart.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VizArtJS/vizart.git"
+  },
+  "scripts": {
+    "pretest": "rimraf dist && mkdir dist && json2module package.json > dist/package.js && node rollup.node",
+    "build": "rollup -c && uglifyjs dist/vizart.js -c negate_iife=false -m -o dist/vizart.min.js"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "rollup": "^0.45.1",
+    "rollup-plugin-ascii": "0.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "3",
+    "rollup-plugin-postcss": "^0.5.3",
+    "uglify-es": "^3.0.25"
+  },
+  "dependencies": {
+    "vizart-core": "0.5.1"
+  }
+}
