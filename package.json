@@ -1,6 +1,6 @@
 {
   "name": "vizart",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Artistic Data Visualization",
   "keywords": [
     "vizart",
@@ -8,7 +8,7 @@
     "D3",
     "es6"
   ],
-  "homepage": "http://www.vizartjs.github.io",
+  "homepage": "http://www.vizartjs.org",
   "license": "MIT",
   "author": {
     "name": "Yun Xing",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "rollup": "^0.45.1",
+    "rollup": "^0.45.2",
     "rollup-plugin-ascii": "0.0",
     "rollup-plugin-json": "^2.3.0",
     "rollup-plugin-node-resolve": "3",
@@ -37,6 +37,7 @@
     "uglify-es": "^3.0.25"
   },
   "dependencies": {
-    "vizart-core": "0.5.1"
+    "vizart-basic": "^0.6.0",
+    "vizart-core": "0.6.0"
   }
 }
