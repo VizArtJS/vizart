@@ -38,6 +38,9 @@
   },
   "dependencies": {
     "vizart-basic": "^0.6.0",
-    "vizart-core": "0.6.0"
+    "vizart-core": "0.6.0",
+    "vizart-geo": "^0.6.0",
+    "vizart-hierarchy": "^0.6.0",
+    "vizart-path": "^0.6.0"
   }
 }
