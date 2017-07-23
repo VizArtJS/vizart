@@ -53,7 +53,7 @@ Production ready:
 
 Alpha:
 
-* [viz-network](https://github.com/VizArtJS/vizart-network)
+* [vizart-network](https://github.com/VizArtJS/vizart-network)
 
 
 ## License
