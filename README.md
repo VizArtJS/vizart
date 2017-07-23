@@ -2,7 +2,26 @@
 
 
 
-## Usage
+## Usage:
+It is recommended to use vizart components.
+
+1. Install a vizart component:
+
+```
+npm install vizart-basic --save
+```
+
+2. import and use
+
+```
+import 'vizart-basic/dist/vizart-basic.css';
+import { Bar } from 'vizart-basic';
+
+const _bar = new Bar(_domId, _opt)....
+```
+
+## Usage: vizart
+With this approach, all charts are available.
 
 1. Install VizArt in your project
 ```
@@ -19,26 +38,22 @@ const _bar = new Bar(_domId, _opt)....
 ```
 
 
-## Development
+## Resources
 
-Follow this instruction to setup development environment for parcoords-es
-### Prerequisites
+* [Demo](https://vizartjs.github.io/demo.html): quick reference with source code
+* [Documentation](https://github.com/VizArtJS/vizart/wiki)
 
-npm
+## Components
+Production ready:
+* [vizart-basic](https://github.com/VizArtJS/vizart-basic)
+* [vizart-path](https://github.com/VizArtJS/vizart-path)
+* [vizart-core](https://github.com/VizArtJS/vizart-core)
+* [vizart-hierarchy](https://github.com/VizArtJS/vizart-hierarchy)
+* [vizart-geo](https://github.com/VizArtJS/vizart-geo)
 
+Alpha:
 
-### Installing
-
-
-```
-npm install
-```
-
-### Building
-
-```
-npm run build
-```
+* [viz-network](https://github.com/VizArtJS/vizart-network)
 
 
 ## License
