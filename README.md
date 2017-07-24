@@ -36,24 +36,6 @@ import { Bar } from 'vizart';
 const _bar = new Bar(_domId, _opt)....
 ```
 
-
-## Resources
-
-* [Demo](https://vizartjs.github.io/demo.html): quick reference with source code
-* [Documentation](https://github.com/VizArtJS/vizart/wiki)
-
-## Components
-Production ready:
-* [vizart-basic](https://github.com/VizArtJS/vizart-basic)
-* [vizart-path](https://github.com/VizArtJS/vizart-path)
-* [vizart-core](https://github.com/VizArtJS/vizart-core)
-* [vizart-hierarchy](https://github.com/VizArtJS/vizart-hierarchy)
-* [vizart-geo](https://github.com/VizArtJS/vizart-geo)
-
-Alpha:
-
-* [vizart-network](https://github.com/VizArtJS/vizart-network)
-
 ## Three steps to use a chart
 1. initialize a chart with domId and declarative options
 ```
@@ -76,6 +58,25 @@ _chart.options(_opt);
 
 _chart.update();
 ```
+
+
+
+## Resources
+
+* [Demo](https://vizartjs.github.io/demo.html): quick reference with source code
+* [Documentation](https://github.com/VizArtJS/vizart/wiki)
+
+## Components
+Production ready:
+* [vizart-basic](https://github.com/VizArtJS/vizart-basic)
+* [vizart-path](https://github.com/VizArtJS/vizart-path)
+* [vizart-core](https://github.com/VizArtJS/vizart-core)
+* [vizart-hierarchy](https://github.com/VizArtJS/vizart-hierarchy)
+* [vizart-geo](https://github.com/VizArtJS/vizart-geo)
+
+Alpha:
+
+* [vizart-network](https://github.com/VizArtJS/vizart-network)
 
 
 
