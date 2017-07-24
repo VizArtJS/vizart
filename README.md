@@ -2,7 +2,7 @@
 
 > It is recommended to use vizart components.
 
-## Usage Components
+## Usage: Components
 
 1. Install a vizart component:
 
