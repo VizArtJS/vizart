@@ -54,7 +54,7 @@ Alpha:
 
 * [vizart-network](https://github.com/VizArtJS/vizart-network)
 
-# Three steps to use a chart
+## Three steps to use a chart
 1. initialize a chart with domId and declarative options
 ```
 let _opt = {
