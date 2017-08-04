@@ -33,14 +33,14 @@
     "rollup-plugin-ascii": "0.0",
     "rollup-plugin-json": "^2.3.0",
     "rollup-plugin-node-resolve": "3",
-    "rollup-plugin-postcss": "^0.5.3",
-    "uglify-es": "^3.0.25"
+    "rollup-plugin-postcss": "^0.5.4",
+    "uglify-es": "^3.0.27"
   },
   "dependencies": {
-    "vizart-basic": "^0.6.0",
-    "vizart-core": "0.6.0",
-    "vizart-geo": "^0.6.0",
-    "vizart-hierarchy": "^0.6.0",
-    "vizart-path": "^0.6.0"
+    "vizart-basic": "^0.6.5",
+    "vizart-core": "0.6.5",
+    "vizart-geo": "^0.6.1",
+    "vizart-hierarchy": "^0.6.2",
+    "vizart-path": "^0.6.3"
   }
 }
