@@ -1,6 +1,6 @@
 {
   "name": "vizart",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Artistic Data Visualization",
   "keywords": [
     "vizart",
@@ -37,10 +37,10 @@
     "uglify-es": "^3.0.27"
   },
   "dependencies": {
-    "vizart-basic": "^0.6.5",
-    "vizart-core": "0.6.5",
-    "vizart-geo": "^0.6.1",
-    "vizart-hierarchy": "^0.6.2",
-    "vizart-path": "^0.6.3"
+    "vizart-basic": "^0.7.1",
+    "vizart-core": "0.8.3",
+    "vizart-geo": "^0.7.2",
+    "vizart-hierarchy": "^0.6.7",
+    "vizart-path": "^0.6.8"
   }
 }
