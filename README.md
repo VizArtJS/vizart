@@ -74,6 +74,10 @@ Production ready:
 * [vizart-hierarchy](https://github.com/VizArtJS/vizart-hierarchy)
 * [vizart-geo](https://github.com/VizArtJS/vizart-geo)
 
+## Credits
+My work is based on/inspired by other people's works. You can find links and author names of originals works at each sub module's home page
+as well as vizart's demo page.
+
 
 ## License
 
