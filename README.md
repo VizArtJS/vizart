@@ -1,8 +1,26 @@
 # vizart
 
+> It is recommended to use vizart components.
 
+## Usage: Components
 
-## Usage
+1. Install a vizart component:
+
+```
+npm install vizart-basic --save
+```
+
+2. import and use
+
+```
+import 'vizart-basic/dist/vizart-basic.css';
+import { Bar } from 'vizart-basic';
+
+const _bar = new Bar(_domId, _opt)....
+```
+
+## Usage: vizart
+With this approach, all charts are available.
 
 1. Install VizArt in your project
 ```
@@ -18,32 +36,48 @@ import { Bar } from 'vizart';
 const _bar = new Bar(_domId, _opt)....
 ```
 
-
-## Development
-
-Follow this instruction to setup development environment for parcoords-es
-### Prerequisites
-
-npm
-
-
-### Installing
-
-
+## Three steps to use a chart
+1. initialize a chart with domId and declarative options
 ```
-npm install
+let _opt = {
+  ...
+};
+const _chart = new Chord('#chart', _opt)
+```
+You only need to provide essential options. [Demo](https://vizartjs.github.io/demo.html) is a good place to check essential options for all charts. You may check up Documentation of each component for full option spec so as to control more chart behaviours.
+
+2. Render a chart with data
+```
+_chart.render(data) // this should be called only once
+```
+3. Change a chart on the fly
+```
+let _opt = _chart.options();
+_opt.plots.opacityArea = o.4
+_chart.options(_opt);
+
+_chart.update();
 ```
 
-### Building
 
-```
-npm run build
-```
+
+## Resources
+
+* [Demo](https://vizartjs.github.io/demo.html): quick reference with source code
+* [Documentation](https://github.com/VizArtJS/vizart/wiki)
+
+## Components
+Production ready:
+* [vizart-basic](https://github.com/VizArtJS/vizart-basic)
+* [vizart-path](https://github.com/VizArtJS/vizart-path)
+* [vizart-core](https://github.com/VizArtJS/vizart-core)
+* [vizart-hierarchy](https://github.com/VizArtJS/vizart-hierarchy)
+* [vizart-geo](https://github.com/VizArtJS/vizart-geo)
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
 
