@@ -7,7 +7,7 @@ import json from 'rollup-plugin-json';
 let pkg = require('./package.json');
 
 export default {
-    entry: 'index.js',
+    input: 'index.js',
     plugins: [
         json({
             exclude: [ 'node_modules' ],
@@ -32,17 +32,17 @@ export default {
             && !id.startsWith('./')
             && !id.includes('vizart');
     },
-    targets: [
+    output: [
         {
-            dest: pkg.main,
+            file: pkg.main,
             format: 'umd',
-            moduleName: 'VizArt',
-            sourceMap: true
+            name: 'VizArt',
+            sourcemap: true
         },
         {
-            dest: pkg.module,
+            file: pkg.module,
             format: 'es',
-            sourceMap: true
+            sourcemap: true
         }
     ]
 };
