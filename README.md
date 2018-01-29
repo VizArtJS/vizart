@@ -74,12 +74,6 @@ Production ready:
 * [vizart-hierarchy](https://github.com/VizArtJS/vizart-hierarchy)
 * [vizart-geo](https://github.com/VizArtJS/vizart-geo)
 
-Alpha:
-
-* [vizart-network](https://github.com/VizArtJS/vizart-network)
-
-
-
 
 ## License
 
