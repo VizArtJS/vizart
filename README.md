@@ -76,8 +76,9 @@ Production ready:
 
 ## Credits
 My work is based on/inspired by other people's works. You can find links and author names of originals works at each sub module's home page
-as well as vizart's demo page.
+as well as at vizart's demo page.
 
+Thanks to Mike Bostock, the creator of [d3.js](www.d3js.org). I create vizart on top of d3 modules. I also study [d3 examples](https://github.com/d3/d3/wiki/Gallery) extensively.
 
 ## License
 
