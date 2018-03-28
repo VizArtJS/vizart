@@ -39,7 +39,7 @@ const chart = bar(domId, opt)....
 ## Three steps to use a chart
 1. initialize a chart with domId and declarative options
 ```
-const oopt = {
+const opt = {
   ...
 };
 const chart = bar('#chart', opt)
@@ -52,10 +52,15 @@ chart.render(data) // this should be called only once
 ```
 3. Change a chart on the fly
 ```
+// copy and update full options
 const opt = chart.options();
 opt.plots.opacityArea = o.4
-chart.options(opt);
 
+// or in minimum
+const opt = { plots: {opacityArea: 0.2 }};
+
+// update options
+chart.options(opt);
 chart.update();
 ```
 
