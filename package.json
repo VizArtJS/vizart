@@ -1,6 +1,6 @@
 {
   "name": "vizart",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Artistic Data Visualization",
   "keywords": [
     "vizart",
@@ -8,7 +8,7 @@
     "D3",
     "es6"
   ],
-  "homepage": "http://www.vizartjs.org",
+  "homepage": "https://vizartjs.github.io/",
   "license": "MIT",
   "author": {
     "name": "Yun Xing",
@@ -29,18 +29,18 @@
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "rollup": "^0.55.1",
+    "rollup": "^0.57.1",
     "rollup-plugin-ascii": "0.0",
     "rollup-plugin-json": "^2.3.0",
     "rollup-plugin-node-resolve": "3",
-    "rollup-plugin-postcss": "^1.2.7",
+    "rollup-plugin-postcss": "^1.4.0",
     "uglify-es": "^3.3.9"
   },
   "dependencies": {
-    "vizart-basic": "^1.1.8",
-    "vizart-core": "1.2.2",
-    "vizart-geo": "^1.0.2",
-    "vizart-hierarchy": "^0.7.5",
-    "vizart-path": "^0.7.6"
+    "vizart-basic": "^2.0.0",
+    "vizart-core": "2.0.0",
+    "vizart-geo": "^2.0.0",
+    "vizart-hierarchy": "^2.0.0",
+    "vizart-path": "^2.0.0"
   }
 }
