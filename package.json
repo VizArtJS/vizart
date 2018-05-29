@@ -1,6 +1,6 @@
 {
   "name": "vizart",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Artistic Data Visualization",
   "keywords": [
     "vizart",
@@ -29,18 +29,18 @@
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "rollup": "^0.57.1",
+    "rollup": "^0.59.4",
     "rollup-plugin-ascii": "0.0",
-    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-json": "^3.0.0",
     "rollup-plugin-node-resolve": "3",
-    "rollup-plugin-postcss": "^1.4.0",
+    "rollup-plugin-postcss": "^1.6.2",
     "uglify-es": "^3.3.9"
   },
   "dependencies": {
     "vizart-basic": "^2.0.0",
     "vizart-core": "2.0.0",
     "vizart-geo": "^2.0.0",
-    "vizart-hierarchy": "^2.0.0",
-    "vizart-path": "^2.0.0"
+    "vizart-hierarchy": "^2.0.1",
+    "vizart-path": "^2.0.4"
   }
 }
